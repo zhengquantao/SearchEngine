@@ -16,6 +16,7 @@ class SimpleEngine(SearchEngineBase):
                 results.append(id)
         return results
 
+
 search_engine = SimpleEngine()
 
 main(search_engine)

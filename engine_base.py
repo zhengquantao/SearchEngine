@@ -14,7 +14,9 @@ class SearchEngineBase(object):
     def search(self, query):
         raise Exception('search not implemented.')
 
+
 search_engine = SearchEngineBase()
+
 
 def main(search_engine):
     for file_path in ['1.txt', '2.txt', '3.txt', '4.txt', '5.txt']:
